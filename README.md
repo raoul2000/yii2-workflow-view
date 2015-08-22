@@ -2,8 +2,6 @@ THIS RELEASE IS A DRAFT SO PLEASE DO NOT USE YET.
 
 # yii2-workflow-view
 
-[![Latest Stable Version](https://poser.pugx.org/raoul2000/yii2-workflow/v/stable)](https://packagist.org/packages/raoul2000/yii2-workflow-view)
-[![Total Downloads](https://poser.pugx.org/raoul2000/yii2-workflow/downloads)](https://packagist.org/packages/raoul2000/yii2-workflow-view)
 [![License](https://poser.pugx.org/raoul2000/yii2-workflow/license)](https://packagist.org/packages/raoul2000/yii2-workflow-view)
 
 *A Widget to display your workflow*
