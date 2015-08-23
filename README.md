@@ -44,7 +44,14 @@ raoul2000\workflow\view\WorkflowViewWidget::widget([
 
 <div id="myWorkflowView" style="height: 400px;"></div>
 ```
-The widget will display the default workflow of the Post model. You can also assign directly a Workflow instance instead of a model. 
+In this example we have passed model instance to the widget but can also pass a Workflow instance to display it.
+When a model is passed to the widget, it will display the workflow the model is in, and if the model is not in a workflow (i.e. it
+has no status), the widget displays the *default workflow*.
+
+Here is an example of workflow view produced by the widget :
+
+<img src="screenshot.png" alt="workflow view"/>
+
 
 For more information on the *SimpleWorkflowBehavior* and the wonderful world of workflows with Yii2, 
 please refer to [yii2-workflow](https://github.com/raoul2000/yii2-workflow)
