@@ -52,6 +52,7 @@ Here is an example of workflow view produced by the widget :
 
 <img src="screenshot.png" alt="workflow view"/>
 
+As you can see, the **initial status** is highlighted with a green thick border.
 
 For more information on the *SimpleWorkflowBehavior* and the wonderful world of workflows with Yii2, 
 please refer to [yii2-workflow](https://github.com/raoul2000/yii2-workflow)
