@@ -1,10 +1,10 @@
-THIS RELEASE IS A DRAFT SO PLEASE DO NOT USE YET.
-
 # yii2-workflow-view
 
+[![Latest Stable Version](https://poser.pugx.org/raoul2000/yii2-workflow-view/v/stable)](https://packagist.org/packages/raoul2000/yii2-workflow-view)
+[![Total Downloads](https://poser.pugx.org/raoul2000/yii2-workflow-view/downloads)](https://packagist.org/packages/raoul2000/yii2-workflow-view)
 [![License](https://poser.pugx.org/raoul2000/yii2-workflow/license)](https://packagist.org/packages/raoul2000/yii2-workflow-view)
 
-*A Widget to display your workflow*
+*A Widget to display workflowS created with [yii2-workflow](https://github.com/raoul2000/yii2-workflow)*
 
 ## Installation
 
@@ -24,14 +24,12 @@ or add
 
 to the require section of your `composer.json` file.
 
-**Note that this widget requires yii2-workflow**
-
 ## Usage
 
 To display a workflow with the widget, you must have ... a workflow to display ! Once you have
 it, just assign it to the `workflow` parameter.
 
-In the example below we are assuming that the `Post` model is attached to a *SimpleWorkflowBehavior* and correctly
+In the example below we are assuming that the `Post` model is attached to a `SimpleWorkflowBehavior` and correctly
 initialized.
 
 ```php
@@ -46,8 +44,12 @@ raoul2000\workflow\view\WorkflowViewWidget::widget([
 
 <div id="myWorkflowView" style="height: 400px;"></div>
 ```
+The widget will display the default workflow of the Post model. You can also assign directly a Workflow instance instead of a model. 
 
-For more information on the *SimpleWorkflowBehavior*, please refer to [yii2-workflow](https://github.com/raoul2000/yii2-workflow)
+For more information on the *SimpleWorkflowBehavior* and the wonderful world of workflows with Yii2, 
+please refer to [yii2-workflow](https://github.com/raoul2000/yii2-workflow)
+
+
 License
 -------
 
