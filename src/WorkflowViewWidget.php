@@ -78,6 +78,7 @@ class WorkflowViewWidget extends Widget
         $this->getView()->registerJs(
         	$this->createJs()
         );
+        WorkflowViewAsset::register($this->getView());
     }
     
     /**
