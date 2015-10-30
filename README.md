@@ -4,7 +4,7 @@
 [![Total Downloads](https://poser.pugx.org/raoul2000/yii2-workflow-view/downloads)](https://packagist.org/packages/raoul2000/yii2-workflow-view)
 [![License](https://poser.pugx.org/raoul2000/yii2-workflow/license)](https://packagist.org/packages/raoul2000/yii2-workflow-view)
 
-*A Widget to display workflowS created with [yii2-workflow](https://github.com/raoul2000/yii2-workflow)*
+*A Widget to display workflows created with [yii2-workflow](https://github.com/raoul2000/yii2-workflow)*
 
 ## Installation
 
@@ -27,9 +27,9 @@ to the require section of your `composer.json` file.
 ## Usage
 
 To display a workflow with the widget, you must have ... a workflow to display ! Once you have
-it, just assign it to the `workflow` parameter.
+it, just assign it to the `workflow` parameter of the `WorkflowViewWidget`.
 
-In the example below we are assuming that the `Post` model is attached to a `SimpleWorkflowBehavior` and correctly
+In the example below we are assuming that the `Post` model is attached to a `SimpleWorkflowBehavior` and that it has been correctly
 initialized.
 
 ```php
@@ -57,6 +57,7 @@ As you can see, the **initial status** is highlighted with a green thick border.
 For more information on the *SimpleWorkflowBehavior* and the wonderful world of workflows with Yii2, 
 please refer to [yii2-workflow](https://github.com/raoul2000/yii2-workflow)
 
+Note that this widget relies on [vis.js](https://github.com/almende/vis) to render the workflow.
 
 License
 -------
