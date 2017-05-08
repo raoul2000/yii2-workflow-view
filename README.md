@@ -6,6 +6,8 @@
 
 *A Widget to display workflows created with [yii2-workflow](https://github.com/raoul2000/yii2-workflow)*
 
+Checkout the [demo](http://raoul2000.good-gamer.net/index.php?r=workflow/view)
+
 ## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
@@ -54,7 +56,7 @@ Here is an example of workflow view produced by the widget :
 
 As you can see, the **initial status** is highlighted with a green thick border.
 
-For more information on the *SimpleWorkflowBehavior* and the wonderful world of workflows with Yii2, 
+For more information on the *SimpleWorkflowBehavior* and the wonderful world of workflows with Yii2,
 please refer to [yii2-workflow](https://github.com/raoul2000/yii2-workflow)
 
 Note that this widget relies on [vis.js](https://github.com/almende/vis) to render the workflow.
@@ -65,5 +67,3 @@ License
 **yii2-workflow-view** is released under the BSD 3-Clause License. See the bundled `LICENSE.md` for details.
 
 [![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
-
-
