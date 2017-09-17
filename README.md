@@ -1,3 +1,6 @@
+
+**PROOF OF CONCEPT - NOT ACTIVELY MAINTAINED**
+
 # yii2-workflow-view
 
 [![Latest Stable Version](https://poser.pugx.org/raoul2000/yii2-workflow-view/v/stable)](https://packagist.org/packages/raoul2000/yii2-workflow-view)
